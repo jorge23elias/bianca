@@ -1,0 +1,921 @@
+
+
+
+@media screen and (max-width: 720px){
+
+
+    /*hero_barra*/
+
+.hero_barra{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    flex-wrap: nowrap;
+
+}
+
+.hero_barra h1{
+
+    font-weight: bold;
+
+}
+
+.barra--container{
+
+    flex-wrap: wrap;
+
+}
+
+}
+
+/*menu_principal*/
+
+@media screen and (max-width: 720px){
+
+
+    main{
+
+        background: linear-gradient(to top, pink 80%, rgba(156, 154, 154, 0.034));
+
+    }
+
+    .principal--info{
+        
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .main_principal h1{
+
+        padding: 0% 10%;
+        font-size: 40px;
+
+
+    }
+
+    .principal--info section p{
+        
+        height: 200px;
+        overflow: scroll;
+        font-size: 12px;
+        width: 200px;
+
+    }
+
+    .principal--info section h2{
+        
+        font-size: 15px;
+        
+    }
+
+    .principal--info section {
+        
+        width: 100%;
+        
+    }
+
+    .principal--img{
+
+        margin-top: 10px;
+        width: 98%;
+    
+    }
+   
+    /*secundario*/
+
+    .secundario--arriba{
+
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .secundario--arriba h2{
+
+        font-size: 35px;
+    }
+
+    .secundario--arriba section p{
+
+        /*font-size: 10px;*/
+        text-align: center;
+    
+    }
+
+    .secundario--abajo{
+
+
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .secundario--abajo section p{
+
+        /*font-size: 10px;*/
+        margin: 10px 10px;
+        text-transform: none;
+        text-align: center;
+    
+    }
+
+    /*ALBUM*/
+
+    .menu_album{
+
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .menu_album h1{
+
+        background: linear-gradient(to left, rgba(198, 168, 2, 0.514), rgba(255, 255, 0, 0.851));
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+        
+    }
+    
+    .album{
+    
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 80px;
+        width: 80%;
+        overflow: auto;
+    
+    }
+    
+    .album_img{
+    
+        width: 200px;
+        margin: 20px;
+        height: 200px;
+        overflow: hidden;
+        padding: auto;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .album_img img{
+    
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+     
+    }
+
+}
+
+/*celebracion*/
+
+@media screen and (max-width: 720px){
+
+.celebracion--datos{
+
+    background-color: white;
+    left: 4%;
+    top: 7%;
+    border: 10px solid wheat;
+    position: static;
+    width: 100%;
+    border: none;        
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.celebracion--datos h2{
+
+    font-size: 40px;
+    margin: 0px 0px 20px;
+
+}
+
+.celebracion--datos h6{
+
+    font-size: 20px;
+    text-transform: none;
+    margin-bottom: 10px;
+
+}
+
+.celebracion--datos p{
+
+    font-size: 18px;
+    text-transform: none;
+    margin-bottom: 5px;
+
+}
+
+.menu_celebracion{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+    height: 100vh;
+    
+}
+
+.celebridad--img{
+
+    
+
+}
+
+.celebridad--img img{
+
+    border: 2px solid white;
+    
+}
+
+
+/*contacto*/
+.menu_contact{
+
+    margin: 30% 0px;
+
+}
+
+
+/*form*/
+
+.menu_form{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+ 
+ }
+ .form{
+ /*
+     display: flex;
+     flex-direction: column;
+     flex-wrap: nowrap;
+     width: 98%;
+     height: 540px;
+ */
+ 
+     text-align: center;
+     overflow: hidden;
+     -webkit-box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+     -moz-box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+     box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+ }
+ .form textarea{
+ 
+     width: 98%;
+ 
+ }
+ 
+ form div {
+ 
+     margin: 20px 0px 0px;
+ 
+ }
+ form div > label {
+ 
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: center;
+ 
+ }
+ 
+ form div input {
+ 
+     width: 80%;
+     height: 30px;
+ 
+ }
+ 
+ 
+ .form label{
+ 
+     font-size: 25px;
+     
+ }
+ 
+ .button{
+ 
+     width: 100%;
+     height: 3rem;
+     border: 1.5px solid rgba(128, 128, 128, 0.199);
+     overflow: hidden;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+     padding-right: 10px;
+     background-color: rgba(128, 128, 128, 0.637);
+ 
+ }
+ 
+ .button button{
+ 
+     width: 80px;
+     height: 35px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(58, 147, 236);
+     
+ 
+ }
+
+
+}
+
+/*navegacion & hero*/
+
+@media screen and (max-width: 720px){
+
+
+    .navegacion--link{
+
+        display: none;
+
+
+    }
+
+    .navegacion h1{
+
+        display: none;
+
+    }
+
+    /*hero*/
+
+    .hero_img{
+
+        min-height: 100vh;
+
+     }
+     
+    .img--1,.img--2,.img--3 {
+
+        background-size: 100% 100%;
+    
+    }
+
+    .img--1{
+
+      top: 10%;
+      left: 1%;
+      width: 30%;
+      height: 25rem;
+    
+    }
+
+    .img--2{
+
+      left: 20%;
+      bottom: 25%;
+      z-index: 1;
+      width: 25%;
+      height: 23rem;
+    }
+    
+    .img--3{
+    
+        right: 1%;
+        top: 10%;
+        width: 60%;
+        height: 25rem;
+    
+    }
+
+}
+
+@media screen and (max-width: 720px){
+
+    .form{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 98%;
+        max-height: 555px;
+        overflow: scroll;
+        
+    }
+    .form textarea{
+    
+        width: 98%;
+    
+    }
+    
+    form div {
+    
+        margin: 20px 0px 0px;
+    
+    }
+    form div > label {
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    
+    }
+    
+    .form label{
+    
+        font-weight: bold;
+        
+    }
+    .form label{
+
+        font-size: 25px;
+        margin: 22px 0px;
+        
+    }
+    form div input {
+
+        width: 80%;
+        height: 30px;
+        margin-top: 0px;
+    
+    }
+    
+    .button{
+
+        width: 100%;
+        height: 3rem;
+        border: 1.5px solid rgba(128, 128, 128, 0.199);
+        overflow: hidden;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+        background-color: rgba(128, 128, 128, 0.637);
+    
+    }
+    
+    .button button{
+
+        width: 80px;
+        height: 35px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(58, 147, 236);
+        
+    
+    }
+
+}
+
+
+
+
+
+
+            /*min-720px*/
+
+
+
+
+
+
+
+
+/*main*/
+
+@media screen and (min-width: 720px){
+  
+    main{
+
+        background: linear-gradient(to top, pink 80%, rgba(156, 154, 154, 0.034));
+    
+    }
+
+  
+}      
+
+/*navegacion - hero*/
+
+@media screen and (min-width: 720px){
+
+
+    .navegacion button{
+
+
+        display: none;
+
+
+    }
+
+    /*hero*/
+
+    .hero_img{
+
+         min-height: 100vh;
+     
+     }
+     
+     .img--1,.img--2,.img--3 {
+     
+         background-size: 100% 100%;
+     
+     }
+
+
+     .img--1{
+        
+            top: 15%;
+            left: 5%;
+            width: 25%;
+            height: 27rem;
+    
+        }
+        
+        .img--2{
+    
+            left: 20%;
+            bottom: 5%;
+            z-index: 1;
+            width: 25%;
+            height: 27rem;
+        
+        }
+        
+        .img--3{
+        
+            right: 4%;
+            top: 15%;
+            width: 60%;
+            height: 27rem;
+        
+        }
+
+
+    
+}
+
+
+/*main principal*/
+
+@media screen and (min-width: 720px){
+
+    .main_principal{
+
+    
+    }
+    
+    .main_principal h1{
+    
+        font-size: 45px;
+    
+    }
+    
+    .main_principal span{
+    
+        color: gold;
+    
+    }
+    
+    .principal--img{
+    
+        width: 50%;
+        overflow: hidden;
+    
+    }
+    
+    .principal--img img {
+    
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 20%;
+        border: 4px solid white;
+        
+    }
+    
+    .principal--info{
+        
+        display: flex;
+        width: 98%;
+        margin: 0% auto;
+    
+    
+    }
+    
+    .principal--info h2{
+        
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+    
+    }
+    
+    .principal--info p{
+        
+        text-transform: none;
+        font-size: 110%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 200px;
+        padding: 10px;
+    
+    }
+    
+    .principal--info section{
+
+        padding: 10px;
+    
+    }
+    
+    .main_principal button{
+    
+        width: 20%;
+  
+    }
+    .main_principal a{
+
+        
+    }
+    
+
+    /*main secundario*/
+
+
+    .main_secundario{
+
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        margin: 0px auto;
+        padding: 30px 0px;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    
+    .secundario--arriba,.secundario--abajo{
+    
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 50px;
+    
+    }
+    
+    .secundario--arriba section,.secundario--abajo section{
+    
+        width: 50%;
+        padding: 20px;
+
+    }
+    
+    .secundario--arriba section h2{
+    
+        text-align: center;
+        font-size: 50px;
+        margin: 20px 0px;
+    
+    }
+    
+    .secundario--arriba section p{
+    
+        text-transform: none;
+        font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 200px;
+        padding: 10px;
+    
+    }
+    
+    .secundario--arriba .secundario--img, .secundario--abajo .secundario--img{
+    
+        margin-top: 30px;
+        width: 45%;
+        overflow: hidden;
+    
+    }
+    
+    .secundario--arriba img,.secundario--abajo img{
+    
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 50%;
+        border: 5px solid white;
+        
+    }
+    
+    .secundario--abajo section h2{
+    
+        text-align: center;
+        margin: 30px 0px;
+    
+    }
+    
+    .secundario--abajo section p{
+    
+        font-size: 10px;
+        margin: 10px 0px;
+        text-transform: none;
+        font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    
+    }
+    
+}
+
+/*celebracion - Album*/
+
+@media screen and (min-width: 720px){
+
+    .menu_celebracion{
+
+        position: relative;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 100px;
+        overflow: hidden;
+    
+    }
+    
+    .celebracion--datos{
+    
+        position: absolute;
+        background-color: white;
+        width: 40%;
+        left: 0%;
+        top: 7%;
+        padding: 10px;
+        border: 10px solid wheat;
+    
+    }
+    
+    .celebracion--datos h2{
+    
+        font-size: 28px;
+        margin: 0px 0px 15px;
+    
+    }
+    
+    .celebracion--datos h6{
+    
+        font-size: 18px;
+        text-transform: none;
+        margin-bottom: 10px;
+    
+    }
+    
+    .celebracion--datos p{
+    
+        font-size: 15px;
+        text-transform: none;
+        margin-bottom: 5px;
+    
+    }
+    
+    .menu_celebracion{
+        
+        
+    
+    }
+    
+    .celebridad--img{
+    
+        width: 80%;
+        overflow: hidden;
+        margin-left: 12%;
+        
+    
+    }
+    
+    .celebridad--img img{
+    
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        border: 3px solid white;
+    
+    }    
+
+
+    
+    
+}
+
+/*form*/
+@media screen and (min-width: 720px){
+
+
+    .menu_form{
+
+         display: flex;
+         justify-content: center;
+     
+     }
+     .form{
+     
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 80%;
+        min-height: 398px;
+        text-align: center;
+        overflow: hidden;
+        margin-bottom: 2%;
+        -webkit-box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+        -moz-box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+        box-shadow: 0px 17px 45px 0px rgba(78,9,82,1);
+     }
+     .form textarea{
+     
+        width: 90%;
+        margin-bottom: 1%;
+     
+     }
+     
+     .form_datos-1{
+
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+     
+     }
+
+     .form_datos-1 label::after{
+        content: ":";
+
+     }
+
+     .form div > label {
+     
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         margin: 5px 20px;
+     
+     }
+     
+     .form div input {
+     
+        width: 20%;
+        height: 30px;
+        border: 1px solid black;
+        margin-top: 5px;
+     
+     }
+      
+     .form label{
+     
+         font-size: 25px;
+         font-weight: bold;
+         
+     }
+     
+     .button{
+     
+         width: 100%;
+         height: 3rem;
+         border: 1.5px solid rgba(128, 128, 128, 0.199);
+         overflow: hidden;
+         display: flex;
+         justify-content: end;
+         align-items: center;
+         padding-right: 10px;
+         background-color: rgba(128, 128, 128, 0.637);
+     
+     }
+     
+     .button button{
+     
+         width: 80px;
+         height: 35px;
+         border-radius: 5px;
+         border: none;
+         background-color: rgb(171, 58, 236);
+         color: white;
+         
+     
+     }
+         
+}
+
+
+
+
+
